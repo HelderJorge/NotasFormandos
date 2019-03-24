@@ -10,7 +10,7 @@ namespace Proj_Formando
     class MetForm
     {
         static SortedDictionary<int, Formando> formandos = new SortedDictionary<int, Formando>();
-
+		//carrega o dicionário
         public static void LerFormandos()
         {
             string path = @"formandos.txt";
